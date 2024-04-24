@@ -11,12 +11,17 @@
 *
 * ======================================================= */
 body {
-  font-family: "Space Mono", Arial, serif;
+  font-family: "Space Mono","cwTeXYen", Arial, serif;
   font-weight: 400;
   font-size: 16px;
   line-height: 1.7;
   color: #4d4d4d;
   background: #fff;
+}
+#CHNAME {
+  font-family: "cwTeXMing";
+  font-weight: 600;
+  font-size: 18px;
 }
 
 #page {
