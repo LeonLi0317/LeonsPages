@@ -2,7 +2,7 @@
 var skillPCNT1,skillPCNT2,skillPCNT3,skillPCNT4,skillPCNT5,skillPCNT6,skillPCNT7,skillPCNT8;
 skillPCNT1='80',skillPCNT2='75', skillPCNT3='85',skillPCNT4='80',skillPCNT5='90',skillPCNT6='100',skillPCNT7='80',skillPCNT8='80';
 var skillNM1,skillNM2,skillNM3,skillNM4,skillNM5,skillNM6,skillNM7,skillNM8;
-skillNM1='HTML',skillNM2='CSS',skillNM3='TypeScript',skillNM4='JavaScript',skillNM5='jQuery',skillNM6='SQL Server',skillNM7='C#',skillNM8='VB'
+skillNM1='HTML',skillNM2='CSS',skillNM3='TypeScript',skillNM4='JavaScript',skillNM5='jQuery',skillNM6='SQL Server',skillNM7='C# Language',skillNM8='VB Language'
 $('.skillPCNT1').find('strong').text(skillNM1);
 $('.skillPCNT1').append(skillPCNT1+'%');
 $('.dPCNT1').attr('data-percent',skillPCNT1);

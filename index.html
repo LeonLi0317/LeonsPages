@@ -58,6 +58,8 @@
 	<!--[if lt IE 9]>
 	<script src="js/respond.min.js"></script>
 	<![endif]-->
+	<!--smtp email-->
+	<script src="https://smtpjs.com/v3/smtp.js"></script>
 	</head>
 	<body>
 		
@@ -78,8 +80,8 @@
 								<ul class="fh5co-social-icons">
 									<!--<li><a href="#"><i class="icon-twitter2"></i></a></li>-->
 									<li><a href="https://line.me/ti/p/udks5vHHHV" target="_blank"><i class="fa-brands fa-line"></i></a></li>
-									<li><a href="https://www.facebook.com/guang.guang.37?locale=zh_TW" target="_blank"><i class="icon-facebook2"></i></a></li>
-									<li><a href="https://www.instagram.com/leechintux/" target="_blank"><i class="fa fa-instagram"></i></a></li>
+									<li><a href="https://www.facebook.com/guang.guang.37?locale=zh_TW" target="_blank"><i class="fa-brands fa-facebook"></i></a></li>
+									<li><a href="https://www.instagram.com/leechintux/" target="_blank"><i class="fa-brands fa-instagram"></i></a></li>
 									<li><a href="https://www.threads.net/@leechintux?hl=zh-tw" target="_blank"><i class="fa-brands fa-threads"></i></a></li>
 								</ul>
 							</p>
@@ -151,11 +153,11 @@
 							<div class="timeline-badge"><i class="icon-suitcase"></i></div>
 							<div class="timeline-panel">
 								<div class="timeline-heading">
-									<h3 class="timeline-title">Senior Developer</h3>
-									<span class="company">Company Name - 2016 - Current</span>
+									<h3 class="timeline-title">辦事員(工程師)</h3>
+									<span class="company">和潤企業股份有限公司 - 2022 - Current</span>
 								</div>
 								<div class="timeline-body">
-									<p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.</p>
+									<p>負責公司內部系統及資料庫的維運、開發</p>
 								</div>
 							</div>
 						</li>
@@ -163,11 +165,11 @@
 							<div class="timeline-badge"><i class="icon-suitcase"></i></div>
 							<div class="timeline-panel">
 								<div class="timeline-heading">
-									<h3 class="timeline-title">Junior Developer</h3>
-									<span class="company">Company Name - 2013 - 2015</span>
+									<h3 class="timeline-title">樓面管理人員</h3>
+									<span class="company">太平洋崇光百貨股份有限公司 - 2016 - 2021</span>
 								</div>
 								<div class="timeline-body">
-									<p>Far far away, behind the word mountains, they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean.</p>
+									<p>活動企劃、基層管理、招商及行銷（網路、賣場)、處理客訴</p>
 								</div>
 							</div>
 						</li>
@@ -175,11 +177,11 @@
 							<div class="timeline-badge"><i class="icon-suitcase"></i></div>
 							<div class="timeline-panel">
 								<div class="timeline-heading">
-									<h3 class="timeline-title">UI/UX Designer</h3>
-									<span class="company">Company Name - 2010 - 2012</span>
+									<h3 class="timeline-title">機台操作人員</h3>
+									<span class="company">義大遊樂世界 - 2010 - 2012</span>
 								</div>
 								<div class="timeline-body">
-									<p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.</p>
+									<p>與遊客互動、操作機台供遊客體驗、處理客訴</p>
 								</div>
 							</div>
 						</li>
@@ -192,36 +194,36 @@
 							<div class="timeline-badge"><i class="icon-graduation-cap"></i></div>
 							<div class="timeline-panel">
 								<div class="timeline-heading">
-									<h3 class="timeline-title">Masters Degree</h3>
-									<span class="company">University Name - 2007 - 2009</span>
+									<h3 class="timeline-title">應用微軟C#工程師養成班畢業</h3>
+									<span class="company">資策會數位教育研究所 - 2021 - 2022</span>
 								</div>
-								<div class="timeline-body">
+								<!--<div class="timeline-body">
 									<p>Far far away, behind the word mountains, they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean.</p>
-								</div>
+								</div>-->
 							</div>
 						</li>
 						<li class="animate-box timeline-unverted">
 							<div class="timeline-badge"><i class="icon-graduation-cap"></i></div>
 							<div class="timeline-panel">
 								<div class="timeline-heading">
-									<h3 class="timeline-title">Bachelors Degree</h3>
-									<span class="company">University Name - 2002 - 2006</span>
+									<h3 class="timeline-title">碩士學位</h3>
+									<span class="company">義守大學 I-SHOU University - 2012 - 2014</span>
 								</div>
-								<div class="timeline-body">
+								<!--<div class="timeline-body">
 									<p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.</p>
-								</div>
+								</div>-->
 							</div>
 						</li>
 						<li class="timeline-inverted animate-box">
 							<div class="timeline-badge"><i class="icon-graduation-cap"></i></div>
 							<div class="timeline-panel">
 								<div class="timeline-heading">
-									<h3 class="timeline-title">Diploma Course</h3>
-									<span class="company">College Name - 1999 - 2001</span>
+									<h3 class="timeline-title">學士學位</h3>
+									<span class="company">義守大學 I-SHOU University - 2008 - 2012</span>
 								</div>
-								<div class="timeline-body">
+								<!--<div class="timeline-body">
 									<p>Far far away, behind the word mountains, they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean.</p>
-								</div>
+								</div>-->
 							</div>
 						</li>
 						<li class="animate-box timeline-unverted">
@@ -231,9 +233,9 @@
 									<h3 class="timeline-title">Graduation</h3>
 									<span class="company">College Name - 1994 - 1998</span>
 								</div>
-								<div class="timeline-body">
+								<!--<div class="timeline-body">
 									<p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.</p>
-								</div>
+								</div>-->
 							</div>
 						</li>
 			    	</ul>
@@ -248,7 +250,7 @@
 			<div class="services-padding">
 				<div class="row">
 					<div class="col-md-8 col-md-offset-2 text-center fh5co-heading">
-						<h2 class="chtitle">My Services</h2>
+						<h2 class="chtitle">常用框架/個人技術</h2>
 					</div>
 				</div>
 				<div class="row">
@@ -444,7 +446,7 @@
 			<div class="row animate-box">
 				<div class="col-md-8 col-md-offset-2 text-center fh5co-heading">
 					<h2 class="chtitle">相關作品</h2>
-					<p style="color: rgb(255, 255, 255);">動態網頁沒有部署，只有截圖參考敬請見諒..！</p>
+					<p style="color: rgb(255, 255, 255);">因成本考量，動態網頁沒有部署，只有截圖參考敬請見諒！</p>
 				</div>
 			</div>
 			<div class="row">
@@ -580,7 +582,7 @@
 			<div class="row animate-box">
 				<div class="col-md-8 col-md-offset-2 text-center fh5co-heading">
 					<h2 class="chtitle">感謝您撥冗閱讀！</h2>
-					<p>Facilis ipsum reprehenderit nemo molestias. Aut cum mollitia reprehenderit. Eos cumque dicta adipisci architecto culpa amet.</p>
+					<p>如果您對我的經歷和技能有興趣，歡迎您利用下方按鈕通過Email的方式與我聯繫。期待與您交流。</p>
 					<p><a href="#" class="btn btn-default btn-lg">Contact Me</a></p>
 				</div>
 			</div>
