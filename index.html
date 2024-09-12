@@ -452,7 +452,7 @@
 			</div>
 			<div class="row">
 				<div class="col-md-6 text-center col-padding animate-box">
-					<a  class="work" style="background-image: url(images/portfolio-1.jpg);">
+					<a id="msit132"  class="work" style="background-image: url(images/portfolio-1.jpg);">
 						<div class="desc">
 							<h3>資策會成果專題</h3>
 							<span>鮮蔬果季-蔬果交易平台</span>
@@ -590,6 +590,16 @@
 		</div>
 	</div>
 	
+	<div class="plyr__video-embed" id="msit-youtube">
+		<iframe src="https://www.youtube.com/embed/YBePFPrlYgg" width="100%" height="100%"
+				allowfullscreen allowtransparency allow="autoplay"></iframe>
+	  </div>
+	  
+	<script>
+		const playerYoutube = new Plyr('#msit-youtube', {
+		  noCookie: false, rel: 0, showinfo: 0, iv_load_policy: 3, modestbranding: 1
+		});
+	</script>
 	<!--<div id="fh5co-consult">
 		<div class="video fh5co-video" style="background-image: url(images/cover_bg_1.jpg);">
 			<div class="overlay"></div>
@@ -668,6 +678,7 @@
 	<!-- index 自寫js -->	
 	<script src="js/index.js"></script>
 	<script src="https://cdn.jsdelivr.net/npm/sweetalert2@11.14.0/dist/sweetalert2.all.min.js"></script>
+	<script src="js/plyr.js"></script>
 	</body>
 </html>
 

@@ -1,5 +1,9 @@
 $(document).ready(function(){
     getSkill();
+    SetCwinHeight();
+});
+
+$('#msit132').on('click',function(){
 });
 
 
@@ -31,4 +35,15 @@ function getSkill(){
     });    
 };
 
-//email寄送
+function SetCwinHeight() {
+    var iframeid = document.getElementById("msit-youtube"); //iframe id  
+    if (document.getElementById) {
+        if (iframeid && !window.opera) {
+            if (iframeid.contentDocument && iframeid.contentDocument.body.offsetHeight) {
+                iframeid.height = iframeid.contentDocument.body.offsetHeight;
+            } else if (iframeid.Document && iframeid.Document.body.scrollHeight) {
+                iframeid.height = iframeid.Document.body.scrollHeight;
+            }
+        }
+    }
+}
