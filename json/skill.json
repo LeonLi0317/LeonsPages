@@ -1,0 +1,36 @@
+{
+    "skill":[
+        {
+            "name":"HTML",
+            "pcnt":"80"
+        },
+        {
+            "name":"CSS",
+            "pcnt":"75"
+        },
+        {
+            "name":"TypeScript",
+            "pcnt":"85"
+        },
+        {
+            "name":"JavaScript",
+            "pcnt":"80"
+        },
+        {
+            "name":"jQuery",
+            "pcnt":"90"
+        },
+        {
+            "name":"Transact-SQL",
+            "pcnt":"100"
+        },
+        {
+            "name":"C# Language",
+            "pcnt":"85"
+        },
+        {
+            "name":"VB Language",
+            "pcnt":"80"
+        }
+    ]
+}
