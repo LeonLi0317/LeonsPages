@@ -1,11 +1,12 @@
 $(document).ready(function(){
     getSkill();
-    SetCwinHeight();
+    setiframe();
 });
 
-$('#msit132').on('click',function(){
-});
-
+function setiframe(){
+    $('#msit132-dialog, #PiCalculater-dialog').width($(window).width()*0.8);
+    $('#msit132-body, #msit132-body').height($(window).height()*0.8);
+}
 
 //載入個人技能
 function getSkill(){
@@ -34,8 +35,3 @@ function getSkill(){
         }
     });    
 };
-
-function SetCwinHeight() {
-    var ifrm = document.getElementById("player-youtube");
-    ifrm.height = document.body.scrollHeight;
-}

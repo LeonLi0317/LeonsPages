@@ -536,11 +536,11 @@ var Modal = function ($) {
     var _this10 = this;
 
     var target;
-    var selector = Util.getSelectorFromElement(this);
+    /*var selector = Util.getSelectorFromElement(this);
 
     if (selector) {
       target = $(selector)[0];
-    }
+    }*/
 
     var config = $(target).data(DATA_KEY) ? 'toggle' : _extends({}, $(target).data(), $(this).data());
 
